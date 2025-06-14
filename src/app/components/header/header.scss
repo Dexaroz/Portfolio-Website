@@ -1,0 +1,101 @@
+$text-logo-font-size: 3rem;
+$text-logo-font-color: #EAEAEA;
+$text-logo-font-color-hover: #BC9A28;
+$text-logo-font-weight: 800;
+$text-logo-width: 10%;
+$text-logo-padding: 1vw;
+$text-logo-padding-left: 6vw;
+
+
+$menu-font-size: 1.2rem;
+$menu-font-color: #EAEAEA;
+$menu-font-color-hover: #BC9A28;
+$menu-font-weight: 600;
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+  height: 9vh;
+
+  .logo-container {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: $text-logo-width;
+    padding-left: $text-logo-padding-left;
+
+    a {
+      text-decoration: none;
+      color: $text-logo-font-color;
+      font-size: $text-logo-font-size;
+      font-weight: $text-logo-font-weight;
+      transition: 0.3s ease-in-out;
+    }
+
+    a:hover {
+      transform: scale(1.1);
+      color: $text-logo-font-color-hover;
+    }
+  }
+
+  .nav-menu-container {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    padding: 0 5vw;
+    margin-left: 25vw;
+
+    .nav-menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+
+      .nav-menu-item {
+        margin-left: 5vw;
+        color: $menu-font-color;
+
+        .nav-menu-link {
+          position: relative;
+          display: inline-block;
+          text-decoration: none;
+          font-size: $menu-font-size;
+          color: $menu-font-color;
+          font-weight: $menu-font-weight;
+          transition: 0.3s ease-in-out;
+
+          p {
+            margin: 0;
+          }
+
+          &.active {
+            color: $menu-font-color-hover;
+          }
+
+          &.active::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #D4AF37;
+            border-radius: 2px;
+          }
+        }
+
+        .nav-menu-link:hover {
+          color: $menu-font-color-hover;
+        }
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,53 @@
+<nav class="main-nav"
+  aria-label="Main Navigation"
+  [ngClass]="{ 'header-hidden' : !isVisible, 'header-visible': isVisible}">
+
+  <div class="nav-content">
+    <div class="logo-container">
+      <a routerLink="/">
+        <p>Eduardo</p>
+      </a>
+    </div>
+
+    <div class="nav-menu-container">
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a routerLink="" class="nav-menu-link active">
+            <p class="logo-text">Home</p>
+          </a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a routerLink="" class="nav-menu-link">
+            <p>Projects</p>
+          </a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a routerLink="" class="nav-menu-link">
+            <p>Skills</p>
+          </a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a routerLink="" class="nav-menu-link">
+            <p>Education</p>
+          </a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a routerLink="" class="nav-menu-link">
+            <p>Experience</p>
+          </a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a routerLink="" class="nav-menu-link">
+            <p>Contact</p>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
