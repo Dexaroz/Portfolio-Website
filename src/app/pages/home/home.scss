@@ -1,0 +1,10 @@
+$padding-desktop: 5rem 8%;
+$color-text: #EAEAEA;
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $padding-desktop;
+  color: $color-text;
+}
