@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Portfolio Website",
+    "image": "/images/portfolio.png",
+    "technologies": ["HTML", "CSS", "JavaScript","Angular", "SCSS", "Threejs"],
+    "codeUrl": "https://github.com/...",
+    "liveUrl": "https://your-site.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "image": "/images/portfolio.png",
+    "technologies": ["HTML", "CSS", "JavaScript","Angular", "SCSS", "Threejs"],
+    "codeUrl": "https://github.com/...",
+    "liveUrl": "https://your-site.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "image": "/images/portfolio.png",
+    "technologies": ["HTML", "CSS", "JavaScript","Angular", "SCSS", "Threejs"],
+    "codeUrl": "https://github.com/...",
+    "liveUrl": "https://your-site.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "image": "/images/portfolio.png",
+    "technologies": ["HTML", "CSS", "JavaScript","Angular", "SCSS", "Threejs"],
+    "codeUrl": "https://github.com/...",
+    "liveUrl": "https://your-site.com"
+  }
+]
