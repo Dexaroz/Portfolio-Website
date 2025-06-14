@@ -26,10 +26,8 @@ export class Header {
     this.route.fragment.subscribe(fragment => {
       if (fragment && this.sections.includes(fragment)) {
         this.activeSection = fragment;
-        console.log(fragment);
       } else {
         this.activeSection = 'home';
-        console.log(fragment);
       }
     });
   }

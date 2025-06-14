@@ -7,11 +7,12 @@ import {Contact} from './pages/contact/contact';
 import {Education} from './pages/education/education';
 
 export const routes: Routes = [
-  { path: '', component: Home },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: Home },
   { path: 'skills', component: Skills },
   { path: 'projects', component: Projects },
   { path: 'education', component: Education },
   { path: 'about-me', component: AboutMe },
-  { path: 'contact', component: Contact }
+  { path: 'contact', component: Contact },
+  { path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];
