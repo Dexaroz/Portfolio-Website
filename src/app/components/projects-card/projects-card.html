@@ -1,0 +1,16 @@
+<div class="project-card">
+  <div class="image-wrapper">
+    <img [src]="projectImage" [alt]="projectTitle + ' screenshot'" />
+  </div>
+  <h3>{{ projectTitle }}</h3>
+  <p>Technologies</p>
+  <div class="tech-container">
+    <ng-container *ngFor="let tech of projectTechnologies">
+      <i [class]="techIcons[tech]" [title]="tech"></i>
+    </ng-container>
+  </div>
+  <div class="buttons">
+    <a [href]="projectCodeUrl" target="_blank">View Code</a>
+    <a [href]="projectLiveUrl" target="_blank">Live Demo</a>
+  </div>
+</div>
